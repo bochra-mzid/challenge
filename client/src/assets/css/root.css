@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../fonts/Gilroy-Bold.woff);
+}
+@font-face {
+  font-family: Proxima-nova;
+  src: url(../fonts/proxima-nova-light-webfont.woff);
+}
+@font-face {
+  font-family: Photograph-Signature;
+  src: url(../fonts/Photograph-Signature.ttf);
+}
+:root {
+    font-size: 16px;
+    font-family: 'Proxima-nova';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #1f212e;
+    --bg-secondary: #2ea3dd;
+    --bg-tertiary: #e0ded2;
+    --bg-danger: #c70039;
+    --bg-warning: #DA723C;
+    --bg-success: #1d5864;
+    --bg-grey: #F8F8F8;
+    --google-color: #4285F4;
+    --transition-speed: 600ms;
+  }

@@ -1,0 +1,158 @@
+@import "root.css";
+.primary{
+    background-color: var(--bg-primary);
+    color: white;
+}
+
+.primary:active{
+    background-color: var(--bg-primary);
+    filter: grayscale(40%);
+}
+
+.secondry{
+    background-color: var(--bg-secondary);
+    color: white;
+}
+
+.secondry:active{
+    background-color: var(--bg-secondary);
+    filter: grayscale(40%);
+}
+.danger{
+    background-color: var(--bg-danger);
+    color: white;
+}
+
+.danger:active{
+    background-color: var(--bg-danger);
+    filter: grayscale(40%);
+}
+.warning{
+    background-color: var(--bg-warning);
+    color: white;
+}
+
+.warning:active{
+    background-color: var(--bg-warning);
+    filter: grayscale(40%);
+}
+.success{
+    background-color: var(--bg-success);
+    color: white;
+}
+
+.success:active{
+    background-color: var(--bg-success);
+    filter: grayscale(40%);
+}
+.primary-color{
+    color: var(--bg-primary);
+}
+
+.primary-color:active{
+    color: var(--bg-primary);
+    filter: grayscale(40%);
+}
+
+.secondry-color{
+    color: var(--bg-secondary);
+}
+
+.secondry-color:active{
+    color: var(--bg-secondary);
+    filter: grayscale(40%);
+}
+
+.danger-colors{
+    color: var(--bg-danger);
+    cursor: pointer;
+}
+
+.danger-colors:active{
+    color: var(--bg-danger);
+    filter: grayscale(40%);
+}
+
+.circle-button{
+    border-radius: 100vh;
+    height:50px !important;
+    width:50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0px 5px;
+}
+.round-button{
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.icon-button{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.card-container{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #ddd;
+}
+
+.card-container-header{
+    text-align: center;
+    padding: 24px;
+    color: var(--bg-secondary);
+    font-size: 2rem;
+}
+.card-container-body{
+    padding-top: 8px;
+    color: var(--text-primary);
+    text-align: center;
+}
+.card-container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.td-sm{
+    width: 15vh;
+}
+.td-med{
+    width: 30vh;
+} 
+.td-lg{
+    width: 45vh;
+}   
+.td-xlg{
+    width: 60vh;
+}
+.always{
+    font-family: 'Photograph-Signature' !important;
+    font-size: 1.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gilroy-Bold' !important;
+}
+p{
+    font-family: 'Proxima-nova';
+}
+@media only screen and (max-width: 600px) {
+    .td-mobile {
+      display: none;
+    }
+  }
