@@ -1,12 +1,10 @@
-import React,{createContext} from 'react'
+import React,{createContext, useState} from 'react'
 
 export const MyContext = createContext();
 
 export function ContextProvider({children}){
-const [user, setUser]= usestate()
-
-const [loggedIn,setLoggedIn]=useState(false)
+const [user, setUser]= useState()
 
 return(
 
-<MyContext.Provider value={{ user, setUser, loggedIn, setLoggedIn }} >{children} </MyContext.Provider>)}
+<MyContext.Provider value={{ user, setUser}} >{children} </MyContext.Provider>)}
